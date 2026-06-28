@@ -1,1 +1,26 @@
-/* css styles */
+/* ---------- Overall Page Width ---------- */
+
+main.content {
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* ---------- Hero Section ---------- */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  min-height: 70vh;
+}
+
+/* Mobile */
+
+@media (max-width: 900px) {
+
+.hero {
+  grid-template-columns: 1fr;
+}
+
+}
