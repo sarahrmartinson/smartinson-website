@@ -1,26 +1,157 @@
-/* ---------- Overall Page Width ---------- */
+/* ===========================
+   Sarah Theme v1
+=========================== */
 
-main.content {
-  max-width: 1300px;
-  margin: auto;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+/* ---------- Colors ---------- */
+
+:root{
+
+  --green:#21463f;
+  --green-light:#2d5b52;
+  --gold:#b9965a;
+
+  --background:#FAF8F4;
+
+  --text:#4d4b47;
+
+  --heading:#1e3732;
+
+  --border:#e8e3db;
+
 }
 
-/* ---------- Hero Section ---------- */
+/* ---------- Page ---------- */
 
-.hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
-  min-height: 70vh;
+body{
+
+    background:var(--background);
+    color:var(--text);
+
+    font-family:"Source Sans 3",sans-serif;
+    font-size:1.1rem;
+    line-height:1.8;
+
 }
 
-/* Mobile */
+/* ---------- Width ---------- */
 
-@media (max-width: 900px) {
+main.content{
 
-.hero {
-  grid-template-columns: 1fr;
+    max-width:1200px;
+    margin:auto;
+
+}
+
+/* ---------- Headings ---------- */
+
+h1,h2,h3,h4{
+
+    color:var(--heading);
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-weight:600;
+
+}
+
+h1{
+
+    font-size:4rem;
+
+    margin-bottom:.25rem;
+
+}
+
+h2{
+
+    font-size:2rem;
+
+}
+
+h3{
+
+    font-size:1.3rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:.08em;
+
+    color:var(--green);
+
+}
+
+/* ---------- Links ---------- */
+
+a{
+
+    color:var(--green);
+
+}
+
+a:hover{
+
+    color:var(--gold);
+
+}
+
+/* ---------- Buttons ---------- */
+
+.btn{
+
+    border-radius:999px;
+
+    padding:.75rem 1.6rem;
+
+    font-weight:600;
+
+}
+
+.btn-primary{
+
+    background:var(--green);
+
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:var(--green-light);
+
+}
+
+.btn-outline-primary{
+
+    border:2px solid var(--green);
+
+    color:var(--green);
+
+}
+
+/* ---------- Hero ---------- */
+
+.hero{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:4rem;
+
+    align-items:center;
+
+    min-height:72vh;
+
+}
+
+@media(max-width:900px){
+
+.hero{
+
+grid-template-columns:1fr;
+
 }
 
 }
