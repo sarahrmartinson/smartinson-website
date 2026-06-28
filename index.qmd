@@ -1,11 +1,15 @@
----
-title: "Sarah Martinson, MSIS"
----
+\`\`\`\`markdown 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQBRAEEAegBBAEQAQQBBAAoAcAByAGUAZgBpAHgAOgAKAHMAbwB1AHIAYwBlADoATABRAEEAdABBAEMAMABBAEMAZwBCADAAQQBHAGsAQQBkAEEAQgBzAEEARwBVAEEATwBnAEEAZwBBAEUAZwBBAGIAdwBCAHQAQQBHAFUAQQBDAGcAQQB0AEEAQwAwAEEATABRAEEAPQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
 
-This is a Quarto website.
+# Sarah Martinson
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Library Operations Manager
 
-```{r}
-1 + 1
-```
+### M.S. Intelligence Studies \| MLIS Candidate
+
+Over the past 17 years, I have built my career by seeking opportunities to improve services, strengthen operations, and take on responsibilities beyond my assigned role. I believe meaningful progress comes from curiosity, collaboration, and a willingness to continuously learn and adapt.
+
+This website highlights my professional experience, graduate work, and portfolio while documenting my continued growth as a leader in higher education and libraries.
+
+[About Me](about.qmd){.btn .btn-primary}
+
+[MLIS Portfolio](portfolio.qmd){.btn .btn-outline-primary}
