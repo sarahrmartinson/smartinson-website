@@ -8,7 +8,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: portfolio.qmd
+        text: MLIS Portfolio
+      - href: professional-work.qmd
+        text: Professional Work
+      - href: graduate-studies.qmd
+        text: Graduate Studies
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
